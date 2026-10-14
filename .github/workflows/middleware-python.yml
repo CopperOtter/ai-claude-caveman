@@ -28,8 +28,8 @@ on:
       - packages/sdk/parity/**
       - tests/middleware-e2e/**
       - .github/workflows/middleware-python.yml
-  schedule:
-    - cron: "17 4 * * *"
+  # schedule:
+  #   - cron: "17 4 * * *"
   workflow_dispatch:
 
 permissions:

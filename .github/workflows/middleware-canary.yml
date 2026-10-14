@@ -5,8 +5,8 @@ name: middleware-canary
 # the supported range shows up as an issue instead of a user report. The
 # pinned-version suite in engine-ci stays the merge gate.
 on:
-  schedule:
-    - cron: "41 3 * * *"
+  # schedule:
+  #   - cron: "41 3 * * *"
   workflow_dispatch:
 
 permissions:

@@ -15,8 +15,8 @@ on:
       - "**/*.go"
       - packages/**/pyproject.toml
       - .github/workflows/supply-chain.yml
-  schedule:
-    - cron: "11 5 * * 1"
+  # schedule:
+  #   - cron: "11 5 * * 1"
   workflow_dispatch:
 
 permissions:

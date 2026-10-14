@@ -13,8 +13,8 @@ on:
       - docs/technical/**
       - .github/scripts/check-doc-links.mjs
       - .github/workflows/docs-links.yml
-  schedule:
-    - cron: "5 7 * * 1"
+  # schedule:
+  #   - cron: "5 7 * * 1"
   workflow_dispatch:
 
 permissions:
